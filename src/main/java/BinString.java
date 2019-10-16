@@ -5,10 +5,10 @@ public class BinString{
         return binarise(sum(s));
     }
 
-    public int sum(String s){
-        if(s == "") return 0;
-        if (s.length() == 1) return ((int) s.charAt(0));
-        return (((int) s.charAt(0))) + sum(s.substring(1));
+    public int sum(String s1){
+        if(s1 == "") return 0;
+        if (s1.length() == 1) return ((int) s1.charAt(0));
+        return (((int) s1.charAt(0))) + sum(s1.substring(1));
     }
 
     public String binarise(int x){
